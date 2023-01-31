@@ -1,0 +1,1 @@
+# magni-finance-test
