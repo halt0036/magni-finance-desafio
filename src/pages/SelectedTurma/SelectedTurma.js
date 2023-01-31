@@ -1,21 +1,8 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import applicationContext from "../../context/applicationContext";
 import "./SelectedTurma.css";
 import { useNavigate, useParams } from "react-router-dom";
-import {
-  Space,
-  Table,
-  Drawer,
-  Button,
-  Cascader,
-  DatePicker,
-  Form,
-  Input,
-  InputNumber,
-  Radio,
-  Select,
-  Switch,
-} from "antd";
+import { Space, Table, Drawer, Form, Input } from "antd";
 
 const SelectedTurma = () => {
   const { data, setData } = useContext(applicationContext);
