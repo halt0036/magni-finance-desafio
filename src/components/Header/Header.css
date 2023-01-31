@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+}
+
+.header .logo-containner,
+.header .buttons-containner {
+  display: flex;
+  align-items: center;
+}
+
+.app-logo {
+  height: 2.5rem;
+}
+
+.header h2 {
+  font-size: 1rem;
+  color: #3141d0;
+}

@@ -1,0 +1,13 @@
+.selected-turma {
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selected-turma .tbl-alunos {
+  width: 48%;
+}
+
+.form {
+  margin-left: 30%;
+}

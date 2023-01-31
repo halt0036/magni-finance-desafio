@@ -1,0 +1,778 @@
+{
+  "cursos": [
+    { "id": 1, "nome": "Ciências Contábeis" },
+    { "id": 2, "nome": "Engenharia de Software" },
+    { "id": 3, "nome": "Biologia" },
+    { "id": 4, "nome": "Matemática" },
+    { "id": 5, "nome": "Geologia" },
+    { "id": 6, "nome": "Física" },
+    { "id": 7, "nome": "Astronomia" },
+    { "id": 8, "nome": "Medicina" },
+    { "id": 9, "nome": "Design" }
+  ],
+  "diciplinas": [
+    { "id": 1, "nome": "Introdução à Engenharia de Alimentos", "professor": 3 },
+    { "id": 2, "nome": "Introdução à Redação Técnica", "professor": 2 },
+    {
+      "id": 3,
+      "nome": "Fundamentos de Engenharia de Alimentos",
+      "professor": 1
+    },
+    { "id": 4, "nome": "Seminários de Lazer e Turismo II", "professor": 4 },
+    { "id": 5, "nome": "Introdução à Bioestatística", "professor": 3 },
+    { "id": 6, "nome": "Engenharia e Ciência dos Materiais I", "professor": 2 },
+    { "id": 7, "nome": "Materiais de Construção Aeronáutica", "professor": 1 },
+    { "id": 8, "nome": "Mecânica de Autoveículos II", "professor": 4 },
+    { "id": 9, "nome": "Fadiga e Fratura dos Materiais", "professor": 3 },
+    {
+      "id": 10,
+      "nome": "Laboratório de Projeto, Materiais e Manufatura II",
+      "professor": 3
+    },
+    {
+      "id": 11,
+      "nome": "Laboratório de Projeto, Materiais e Manufatura I",
+      "professor": 2
+    },
+    { "id": 12, "nome": "Teoria Geral do Direito Privado I", "professor": 1 },
+    { "id": 13, "nome": "Trabalho de Conclusão de Curso", "professor": 4 },
+    { "id": 14, "nome": "Avaliação Programática I", "professor": 3 },
+    { "id": 15, "nome": "Cultura, Biologia e Evolução", "professor": 2 },
+    { "id": 16, "nome": "Estatística Aplicada I", "professor": 1 },
+    { "id": 17, "nome": "Análise Avançada de Regressão", "professor": 4 },
+    { "id": 18, "nome": "Prática de Estatística Avançada", "professor": 3 },
+    { "id": 19, "nome": "Bioquímica", "professor": 2 },
+    { "id": 20, "nome": "Reprodução em Animais Silvestres", "professor": 1 },
+    { "id": 21, "nome": "Clínica Cirúrgica de Eqüinos", "professor": 4 },
+    {
+      "id": 22,
+      "nome": "Regimes e Organizações Internacionais",
+      "professor": 3
+    },
+    { "id": 23, "nome": "Tópicos Especiais em Química III", "professor": 2 },
+    {
+      "id": 24,
+      "nome": "Direito Financeiro e Políticas Públicas",
+      "professor": 1
+    }
+  ],
+  "alunos": [
+    {
+      "nome": "Miguel",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 1,
+      "matricula": 123456
+    },
+    {
+      "nome": "Davi",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 2,
+      "matricula": 123456
+    },
+    {
+      "nome": "Gabriel",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 3,
+      "matricula": 123456
+    },
+    {
+      "nome": "Arthur",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 4,
+      "matricula": 123456
+    },
+    {
+      "nome": "Lucas",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 5,
+      "matricula": 123456
+    },
+    {
+      "nome": "Matheus",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 6,
+      "matricula": 123456
+    },
+    {
+      "nome": "Pedro",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 7,
+      "matricula": 123456
+    },
+    {
+      "nome": "Guilherme",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 8,
+      "matricula": 123456
+    },
+    {
+      "nome": "Gustavo",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 9,
+      "matricula": 123456
+    },
+    {
+      "nome": "Rafael",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 10,
+      "matricula": 123456
+    },
+    {
+      "nome": "Felipe",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 11,
+      "matricula": 123456
+    },
+    {
+      "nome": "Bernardo",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 12,
+      "matricula": 123456
+    },
+    {
+      "nome": "Enzo",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 13,
+      "matricula": 123456
+    },
+    {
+      "nome": "Nicolas",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 14,
+      "matricula": 123456
+    },
+    {
+      "nome": "João Pedro",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 15,
+      "matricula": 123456
+    },
+    {
+      "nome": "Pedro Henrique",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 16,
+      "matricula": 123456
+    },
+    {
+      "nome": "Cauã",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 17,
+      "matricula": 123456
+    },
+    {
+      "nome": "Vitor",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 18,
+      "matricula": 123456
+    },
+    {
+      "nome": "Eduardo",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 19,
+      "matricula": 123456
+    },
+    {
+      "nome": "Daniel",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 20,
+      "matricula": 123456
+    },
+    {
+      "nome": "Henrique",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 21,
+      "matricula": 123456
+    },
+    {
+      "nome": "Murilo",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 22,
+      "matricula": 123456
+    },
+    {
+      "nome": "Vinicius",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 23,
+      "matricula": 123456
+    },
+    {
+      "nome": "Samuel",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 24,
+      "matricula": 123456
+    },
+    {
+      "nome": "Pietro",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 25,
+      "matricula": 123456
+    },
+    {
+      "nome": "João Vitor",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 26,
+      "matricula": 123456
+    },
+    {
+      "nome": "Leonardo",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 27,
+      "matricula": 123456
+    },
+    {
+      "nome": "Caio",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 28,
+      "matricula": 123456
+    },
+    {
+      "nome": "Heitor",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 29,
+      "matricula": 123456
+    },
+    {
+      "nome": "Lorenzo",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 30,
+      "matricula": 123456
+    },
+    {
+      "nome": "Isaac",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 31,
+      "matricula": 123456
+    },
+    {
+      "nome": "Lucca",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 32,
+      "matricula": 123456
+    },
+    {
+      "nome": "Thiago",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 33,
+      "matricula": 123456
+    },
+    {
+      "nome": "João Gabriel",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 34,
+      "matricula": 123456
+    },
+    {
+      "nome": "João",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 35,
+      "matricula": 123456
+    },
+    {
+      "nome": "Theo",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 36,
+      "matricula": 123456
+    },
+    {
+      "nome": "Bruno",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 37,
+      "matricula": 123456
+    },
+    {
+      "nome": "Bryan",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 38,
+      "matricula": 123456
+    },
+    {
+      "nome": "Carlos Eduardo",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 39,
+      "matricula": 123456
+    },
+    {
+      "nome": "Luiz Felipe",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 40,
+      "matricula": 123456
+    },
+    {
+      "nome": "Breno",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 41,
+      "matricula": 123456
+    },
+    {
+      "nome": "Emanuel",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 42,
+      "matricula": 123456
+    },
+    {
+      "nome": "Ryan",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 43,
+      "matricula": 123456
+    },
+    {
+      "nome": "Vitor Hugo",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 44,
+      "matricula": 123456
+    },
+    {
+      "nome": "Yuri",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 45,
+      "matricula": 123456
+    },
+    {
+      "nome": "Benjamin",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 46,
+      "matricula": 123456
+    },
+    {
+      "nome": "Erick",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 47,
+      "matricula": 123456
+    },
+    {
+      "nome": "Enzo Gabriel",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 48,
+      "matricula": 123456
+    },
+    {
+      "nome": "Fernando",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 49,
+      "matricula": 123456
+    },
+    {
+      "nome": "Joaquim",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 50,
+      "matricula": 123456
+    },
+    {
+      "nome": "Helena",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 51,
+      "matricula": 123456
+    },
+    {
+      "nome": "Alice",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 52,
+      "matricula": 123456
+    },
+    {
+      "nome": "Laura",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 53,
+      "matricula": 123456
+    },
+    {
+      "nome": "Manuela",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 54,
+      "matricula": 123456
+    },
+    {
+      "nome": "Sophia",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 55,
+      "matricula": 123456
+    },
+    {
+      "nome": "Isabella",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 56,
+      "matricula": 123456
+    },
+    {
+      "nome": "Luísa",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 57,
+      "matricula": 123456
+    },
+    {
+      "nome": "Heloísa",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 58,
+      "matricula": 123456
+    },
+    {
+      "nome": "Cecília",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 59,
+      "matricula": 123456
+    },
+    {
+      "nome": "Maitê",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 60,
+      "matricula": 123456
+    },
+    {
+      "nome": "Eloá",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 61,
+      "matricula": 123456
+    },
+    {
+      "nome": "Elisa",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 62,
+      "matricula": 123456
+    },
+    {
+      "nome": "Liz",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 63,
+      "matricula": 123456
+    },
+    {
+      "nome": "Júlia",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 64,
+      "matricula": 123456
+    },
+    {
+      "nome": "Maria Luísa",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 65,
+      "matricula": 123456
+    },
+    {
+      "nome": "Valentina",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 66,
+      "matricula": 123456
+    },
+    {
+      "nome": "Maria Alice",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 67,
+      "matricula": 123456
+    },
+    {
+      "nome": "Lívia",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 68,
+      "matricula": 123456
+    },
+    {
+      "nome": "Antonella",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 69,
+      "matricula": 123456
+    },
+    {
+      "nome": "Lorena",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 70,
+      "matricula": 123456
+    },
+    {
+      "nome": "Ayla",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 71,
+      "matricula": 123456
+    },
+    {
+      "nome": "Isis",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 72,
+      "matricula": 123456
+    },
+    {
+      "nome": "Maria Júlia",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 73,
+      "matricula": 123456
+    },
+    {
+      "nome": "Maya",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 74,
+      "matricula": 123456
+    },
+    {
+      "nome": "Maria Clara",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 75,
+      "matricula": 123456
+    },
+    {
+      "nome": "Esther",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 76,
+      "matricula": 123456
+    },
+    {
+      "nome": "Giovanna",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 77,
+      "matricula": 123456
+    },
+    {
+      "nome": "Lara",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 78,
+      "matricula": 123456
+    },
+    {
+      "nome": "Sarah",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 79,
+      "matricula": 123456
+    },
+    {
+      "nome": "Beatriz",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 80,
+      "matricula": 123456
+    },
+    {
+      "nome": "Aurora",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 81,
+      "matricula": 123456
+    },
+    {
+      "nome": "Mariana",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 82,
+      "matricula": 123456
+    },
+    {
+      "nome": "Maria Cecília",
+      "nascimento": "10/02/2000",
+      "media": 10,
+      "key": 83,
+      "matricula": 123456
+    }
+  ],
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Vinicius",
+      "salario": 5500,
+      "nascimento": "10/02/2000"
+    },
+    { "id": 2, "nome": "Amanda", "salario": 5500, "nascimento": "10/02/2000" },
+    { "id": 3, "nome": "Arthur", "salario": 5500, "nascimento": "10/02/2000" },
+    { "id": 4, "nome": "Julia", "salario": 5500, "nascimento": "10/02/2000" }
+  ],
+  "turmas": [
+    {
+      "id": 1,
+      "alunos": [
+        "Miguel",
+        "Davi",
+        "Gabriel",
+        "Arthur",
+        "Lucas",
+        "Matheus",
+        "Pedro",
+        "Guilherme",
+        "Gustavo",
+        "Rafael",
+        "Felipe",
+        "Bernardo",
+        "Enzo",
+        "Nicolas",
+        "João Pedro",
+        "Pedro Henrique",
+        "Cauã",
+        "Vitor",
+        "Eduardo",
+        "Daniel",
+        "Henrique",
+        "Murilo",
+        "Vinicius",
+        "Samuel",
+        "Pietro",
+        "João Vitor",
+        "Leonardo",
+        "Caio",
+        "Heitor"
+      ],
+      "diciplinas": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "curso": 2,
+      "semestre": 1
+    },
+    {
+      "id": 2,
+      "alunos": [
+        "Erick",
+        "Enzo Gabriel",
+        "Fernando",
+        "Joaquim",
+        "Helena",
+        "Alice",
+        "Laura",
+        "Manuela",
+        "Sophia",
+        "Isabella",
+        "Luísa",
+        "Heloísa",
+        "Cecília",
+        "Maitê",
+        "Eloá",
+        "Elisa",
+        "Liz",
+        "Júlia"
+      ],
+      "diciplinas": [12, 2, 13, 14, 15, 16, 17, 18, 19, 10],
+      "curso": 3,
+      "semestre": 1
+    },
+    {
+      "id": 3,
+      "alunos": [
+        "Maria Luísa",
+        "Valentina",
+        "Maria Alice",
+        "Lívia",
+        "Antonella",
+        "Lorena",
+        "Ayla",
+        "Isis",
+        "Maria Júlia",
+        "Maya",
+        "Maria Clara",
+        "Esther"
+      ],
+      "diciplinas": [2, 11, 12, 5, 24, 7, 22, 9, 21],
+      "curso": 5,
+      "semestre": 1
+    },
+    {
+      "id": 4,
+      "alunos": [
+        "Giovanna",
+        "Lara",
+        "Sarah",
+        "Beatriz",
+        "Aurora",
+        "Mariana",
+        "Maria Cecília"
+      ],
+      "diciplinas": [20, 12, 6, 5, 4, 13, 11, 1, 8, 9],
+      "curso": 1,
+      "semestre": 1
+    },
+    {
+      "id": 5,
+      "alunos": [
+        "Lorenzo",
+        "Isaac",
+        "Lucca",
+        "Thiago",
+        "João Gabriel",
+        "João",
+        "Theo",
+        "Bruno",
+        "Bryan",
+        "Carlos Eduardo",
+        "Luiz Felipe",
+        "Breno",
+        "Emanuel",
+        "Ryan",
+        "Vitor Hugo",
+        "Yuri",
+        "Benjamin"
+      ],
+      "diciplinas": [12, 2, 3, 4, 7],
+      "curso": 3,
+      "semestre": 1
+    }
+  ]
+}

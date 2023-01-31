@@ -1,0 +1,13 @@
+.navigator {
+  margin-left: 5rem;
+}
+
+.navigator-filters {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navigator-filters .select {
+  width: 200px;
+}
